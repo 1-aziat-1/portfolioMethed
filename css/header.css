@@ -1,0 +1,60 @@
+.header {
+  margin: 60px 0 80px 0;
+}
+
+.table {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.logo-img {
+  display: block;
+  margin-right: 105px;
+}
+.nav {
+  margin-right: 125px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.nav-link:not(:last-child){
+  margin-right: 35px;
+}
+
+.nav-link:hover {
+  color: #bc881a;
+}
+
+.search {
+  position: relative;
+}
+
+.search-input {
+  padding: 10px;
+  width: 270px;
+  color: #fff;
+  font-size: 22px;
+  border: 3px solid #9965e3;
+  border-radius: 10px;
+  outline: #9965e3;
+  background-color: inherit;
+}
+
+.search-input::placeholder{
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.search-btn {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background-image: url(/image/svg/search.svg);
+  background-color: inherit;
+  top: 10px;
+  right: 12px;
+}
